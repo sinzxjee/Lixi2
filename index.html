@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Lì Xì May Mắn 🧧</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>🎉 Mở Lì Xì - Nhận Lộc Đầu Năm! 🧧</h1>
+
+    <!-- Nhập tên người chơi -->
+    <div class="input-container">
+        <label for="playerName">Nhập tên của bạn:</label>
+        <input type="text" id="playerName" placeholder="Nhập tên..." />
+        <button id="startButton">Bắt đầu</button>
+    </div>
+
+    <!-- Khu vực mở lì xì -->
+    <div class="container" id="liXiContainer"></div>
+
+    <!-- Nút chơi lại -->
+    <button id="replayButton" style="display: none;">🔄 Chơi lại 🔄</button>
+
+    <!-- Hiển thị danh sách người đã nhận lì xì -->
+    <h2>📜 Danh sách người nhận lì xì:</h2>
+    <ul id="noteList"></ul>
+
+    <!-- Nút gửi báo cáo -->
+    <button id="sendReportButton" style="display: none;">📩 Gửi báo cáo</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
